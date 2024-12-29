@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f9;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #333;
+        }
+
+        .blog-post {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .blog-post img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .blog-details h1 {
+            font-size: 2.5rem;
+            color: #ff7e5f;
+            margin-bottom: 15px;
+        }
+
+        .blog-details .author,
+        .blog-details .date {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .blog-details p {
+            text-align: justify;
+            font-size: 1.1rem;
+            color: #444;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+    <title>Blog Post -> Blog 1</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/blog-logo.png" alt="Blog Logo" style="width: 125px; height: 125px; ">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Log in/Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="blog-post">
+        <img src="img/blog-img1.jpg" alt="Blog 1 Image">
+        <div class="blog-details">
+            <h1>Blog post name</h1>
+            <p class="author"><b>Autor:</b> Name autor</p>
+            <p class="date"><b>Date:</b> Current date</p>
+            <p style = "text-align: justify;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione quibusdam doloribus assumenda sapiente autem laborum rem velit ea ab deserunt vitae et 
+                amet laudantium architecto magnam facere sequi, aliquam excepturi tempora rerum eveniet? Similique impedit nisi magni exercitationem accusamus, debitis 
+                aut cumque recusandae laboriosam ex hic quia tempore porro provident ipsa. Odit cupiditate tempore cumque. Aliquid consequuntur pariatur blanditiis quia 
+                cupiditate molestias sapiente dicta qui nisi minus fugit, quam minima quos optio fugiat amet quo obcaecati eveniet cum reiciendis. Repellendus similique 
+                ducimus natus. Dolore nihil at sunt, magnam exercitationem laboriosam eaque laudantium doloremque sint facere nam cupiditate. Molestias, corporis dolorem?</p>
+        </div>
+    </section>
+    <footer>
+        <p>2024 Blog, Design by Sergei Koval</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

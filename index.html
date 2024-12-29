@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Post</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/blog-logo.png" alt="Blog Logo" style="width: 125px; height: 125px; ">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html">Category</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Log in/Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="search-bar">
+            <input 
+                type="text" 
+                id="searchInput" 
+                placeholder="Search blog posts..." 
+                onkeyup="searchBlogs()" 
+                style="width: 300px; height: 40px; margin: 20px auto; display: block;"
+            >
+        </section>
+
+        <section class="blog-posts">
+            <h1>Latest Blog Posts</h1>
+            <div class="blog-list">
+                <article class="blog-item">
+                    <img src="img/blog-img1.jpg" alt="Blog Image 1" class="post-image">
+                    <div class="blog-content">
+                        <h2>Blog Post Title 1</h2>
+                        <p class="author">By: Author Name</p>
+                        <p class="date">Date: Current Date</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+                        <a href="blog-post.html" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <img src="img/blog-img2.jpg" alt="Blog Image 2" class="post-image">
+                    <div class="blog-content">
+                        <h2>Blog Post Title 2</h2>
+                        <p class="author">By: Author Name</p>
+                        <p class="date">Date: Current Date</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <img src="img/blog-img3.jpg" alt="Blog Image 3" class="post-image">
+                    <div class="blog-content">
+                        <h2>Blog Post Title 3</h2>
+                        <p class="author">By: Author Name</p>
+                        <p class="date">Date: Current Date</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <img src="img/blog-img4.jpg" alt="Blog Image 3" class="post-image">
+                    <div class="blog-content">
+                        <h2>Blog Post Title 4</h2>
+                        <p class="author">By: Author Name</p>
+                        <p class="date">Date: Current Date</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+            <div class="blog-list">
+                <article class="blog-item">
+                    <img src="img/blog-img5.jpg" alt="Blog Image 3" class="post-image">
+                    <div class="blog-content">
+                        <h2>Blog Post Title 5</h2>
+                        <p class="author">By: Author Name</p>
+                        <p class="date">Date: Current Date</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <img src="img/blog-img6.jpg" alt="Blog Image 3" class="post-image">
+                    <div class="blog-content">
+                        <h2>Blog Post Title 6</h2>
+                        <p class="author">By: Author Name</p>
+                        <p class="date">Date: Current Date</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+                <article class="blog-item">
+                    <img src="img/blog-img7.jpg" alt="Blog Image 3" class="post-image">
+                    <div class="blog-content">
+                        <h2>Blog Post Title 7</h2>
+                        <p class="author">By: Author Name</p>
+                        <p class="date">Date: Current Date</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio...</p>
+                        <a href="#" class="read-more">Read More</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Blog, Design by Sergei Koval</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

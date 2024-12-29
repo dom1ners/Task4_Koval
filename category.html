@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog Post -> Category</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/blog-logo.png" alt="Blog Logo" style="width: 125px; height: 125px;">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="category.html" class="active">Category</a></li>
+                <li><a href="#">Pricing</a></li>
+                <li><a href="#">Log in/Sign up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <select id="categoryFilter" onchange="filterByCategory()" style="margin-top: 50px; width: 300px; height: 40px; margin-left: 800px;">
+            <option value="all">All Categories</option>
+            <option value="categ1">Category 1</option>
+            <option value="categ2">Category 2</option>
+            <option value="categ3">Category 3</option>
+        </select>
+    </div>
+
+    <section class="blog-posts">
+        <div class="blog-list">
+            <article class="blog-block" data-category="categ1">
+                <img src="img/blog-img1.jpg" alt="Blog Image 1">
+                <div class="blog-content">
+                    <h2><a href="#">Post 1</a></h2>
+                    <p class="author"><b>Author:</b> John Doe</p>
+                    <p class="date"><b>Date:</b> March 20, 2024</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                </div>
+            </article>
+            <article class="blog-block" data-category="categ2">
+                <img src="img/blog-img2.jpg" alt="Blog Image 2">
+                <div class="blog-content">
+                    <h2><a href="#">Post 2</a></h2>
+                    <p class="author"><b>Author:</b> Jane Smith</p>
+                    <p class="date"><b>Date:</b> March 18, 2024</p>
+                    <p>Quisque vel libero eu purus pharetra congue...</p>
+                </div>
+            </article>
+            <article class="blog-block" data-category="categ3">
+                <img src="img/blog-img3.jpg" alt="Blog Image 3">
+                <div class="blog-content">
+                    <h2><a href="#">Post 3</a></h2>
+                    <p class="author"><b>Author:</b> Emily White</p>
+                    <p class="date"><b>Date:</b> March 15, 2024</p>
+                    <p>Mauris sit amet dui venenatis, vulputate justo in...</p>
+                </div>
+            </article>
+            <article class="blog-block" data-category="categ1">
+                <img src="img/blog-img4.jpg" alt="Blog Image 4">
+                <div class="blog-content">
+                    <h2><a href="#">Post 4</a></h2>
+                    <p class="author"><b>Author:</b> David Brown</p>
+                    <p class="date"><b>Date:</b> March 10, 2024</p>
+                    <p>Integer nec odio. Praesent libero. Sed cursus ante...</p>
+                </div>
+            </article>
+            <article class="blog-block" data-category="categ2">
+                <img src="img/blog-img5.jpg" alt="Blog Image 5">
+                <div class="blog-content">
+                    <h2><a href="#">Post 5</a></h2>
+                    <p class="author"><b>Author:</b> Lisa Green</p>
+                    <p class="date"><b>Date:</b> March 5, 2024</p>
+                    <p>Aenean euismod elementum nisi, quis eleifend quam adipiscing...</p>
+                </div>
+            </article>
+            <article class="blog-block" data-category="categ3">
+                <img src="img/blog-img6.jpg" alt="Blog Image 6">
+                <div class="blog-content">
+                    <h2><a href="#">Post 6</a></h2>
+                    <p class="author"><b>Author:</b> Michael Scott</p>
+                    <p class="date"><b>Date:</b> March 2, 2024</p>
+                    <p>Nulla facilisi. Cras sed felis eget velit aliquet...</p>
+                </div>
+            </article>
+            <article class="blog-block" data-category="categ1">
+                <img src="img/blog-img7.jpg" alt="Blog Image 7">
+                <div class="blog-content">
+                    <h2><a href="#">Post 7</a></h2>
+                    <p class="author"><b>Author:</b> Sarah Wilson</p>
+                    <p class="date"><b>Date:</b> February 28, 2024</p>
+                    <p>Fusce ut placerat orci nulla pellentesque dignissim...</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <footer>
+        <p>2024 Blog, Design by Sergei Koval</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
